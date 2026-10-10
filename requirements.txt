@@ -1,0 +1,19 @@
+# --- Core brain ---
+anthropic>=0.40.0
+python-dotenv>=1.0.1
+requests>=2.32.0   # used by the local Ollama backend (brain_ollama.py)
+
+# --- Speech-to-text (local, offline by default) ---
+faster-whisper>=1.0.3
+sounddevice>=0.4.7
+numpy>=1.26.4
+scipy>=1.13.0
+
+# --- Push-to-talk key listener ---
+pynput>=1.7.7
+
+# --- Text-to-speech (offline by default) ---
+pyttsx3>=2.90
+
+# --- Optional cloud TTS (only used if JARVIS_TTS_BACKEND=elevenlabs) ---
+elevenlabs>=1.9.0
