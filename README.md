@@ -29,7 +29,8 @@ that on.
 ## Setup
 
 ```bash
-cd jarvis-lite
+git clone https://github.com/Farosh-dev/Quick-Jarvis-Build.git
+cd Quick-Jarvis-Build
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -198,7 +199,7 @@ end-to-end. Suggested next stages, each additive:
 ## Project layout
 
 ```
-jarvis-lite/
+Quick-Jarvis-Build/
 ├── .env.example        # copy to .env and fill in your API key
 ├── requirements.txt
 ├── README.md
